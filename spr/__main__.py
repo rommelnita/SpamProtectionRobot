@@ -49,14 +49,14 @@ async def help_command(_, message: Message):
     kb = ikb(
         {
             "Help": "bot_commands",
-            "Repo": "https://github.com/TheHamkerCat/SpamProtectionRobot",
+            "Owner": "@FuckingMind_admin",
             "Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "Support Chat (for now)": "https://t.me/WBBSupport",
+            "Support Chat (for now)": "https://t.me/Gabutjoinsini",
         }
     )
     mention = message.from_user.mention
     await message.reply_photo(
-        "https://hamker.me/logo_3.png",
+        "https://telegra.ph/file/be63e7f7f46cf417f8099.jpg",
         caption=f"Hi {mention}, I'm SpamProtectionRobot,"
         + " Choose An Option From Below.",
         reply_markup=kb,
