@@ -34,12 +34,12 @@ $ python3 -m spr
 
 # Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thehamkercat/SpamProtectionRobot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rommelnita/SpamProtectionRobot/)
 
 # Docker
 
 ```sh
-$ git clone https://github.com/TheHamkerCat/SpamProtectionRobot
+$ git clone https://github.com/rommelnita/SpamProtectionRobot
 
 $ cd SpamProtectionRobot
 ```
